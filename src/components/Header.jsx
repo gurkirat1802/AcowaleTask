@@ -93,7 +93,7 @@ function Header(props) {
   function handleSearch() {
 
 
-    let url = `https://gnews.io/api/v4/top-headlines?q=${query}&lang=${language}&country=${country}&sortby=${sortBy}&category=${category}&max=10&apikey=81d4161d1d42ab816aa108c257777a06`;
+    let url = `https://gnews.io/api/v4/top-headlines?q=${query}&lang=${language}&country=${country}&sortby=${sortBy}&category=${category}&max=10&apikey=YOUR_API_KEY`;
 
 
     fetch(url)
@@ -115,7 +115,7 @@ function Header(props) {
 
     handleFilterFlag();
 
-    let url = `https://gnews.io/api/v4/top-headlines?q=${query}&lang=${language}&country=${country}&sortby=${sortBy}&category=${category}&max=10&apikey=81d4161d1d42ab816aa108c257777a06`;
+    let url = `https://gnews.io/api/v4/top-headlines?q=${query}&lang=${language}&country=${country}&sortby=${sortBy}&category=${category}&max=10&apikey=YOUR_API_KEY`;
 
 
     fetch(url)

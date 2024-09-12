@@ -9,7 +9,7 @@ function App() {
 
   useEffect(()=>{
 
-    let url = `https://gnews.io/api/v4/top-headlines?q=None&lang=en&country=in&sortby=publishedAt&category=general&max=10&apikey=81d4161d1d42ab816aa108c257777a06`;
+    let url = `https://gnews.io/api/v4/top-headlines?q=None&lang=en&country=in&sortby=publishedAt&category=general&max=10&apikey=YOUR_API_KEY`;
     fetch(url)
       .then(function (response) {
         return response.json();

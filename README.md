@@ -1,8 +1,8 @@
-## This is a assignment project given by [acowale](https://acowale.com/)
+## This is a assignment project given by [Acowale](https://acowale.com/)
 
 ## I build it with React.js and Tailwind css
 
-## Here is the live link of the project [https://acowale-news-ea9bd.web.app/index.js](https://acowale-news-ea9bd.web.app/index.js)
+## Here is the live link of the project [https://acowaletask-6fff3.web.app/](https://acowaletask-6fff3.web.app/)
 
 ## Open your terminal here and run following command
 
